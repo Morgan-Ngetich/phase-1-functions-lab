@@ -11,15 +11,10 @@ function distanceFromHqInFeet(pickUpLocation) {
   return distanceInFeet;
 }
 
-
-
 function distanceTravelledInFeet(startBlock, destinationBlock) {
   const distanceInFeet = Math.abs(destinationBlock - startBlock) * 264;
   return distanceInFeet;
 }
-
-
-
 
 function calculatesFarePrice(startBlock, destinationBlock) {
   const distanceInFeet = Math.abs(destinationBlock - startBlock) * 264;
